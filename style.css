@@ -1,0 +1,13 @@
+#result {
+    text-align: center;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+}
+
+.fin {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="form-group">
+        <label for="produit"> Nom du produit :</label>
+        <input class="form-control" type="text" name="produit" id="produit">
+        <label for="prixHT"> Prix Hors taxe :</label>
+        <input class="form-control" type="text" name="prixHT" id="prixHT">
+        <label for="TVA"> Taux TVA :</label>
+        <input class="form-control" type="text" name="TVA" id="TVA">
+        <label for="nbArticle">Nombre Article :</label>
+        <input class="form-control" type="number" name="nbArticle" id="nbArticle">
+        <button class="btn btn-primary" id="submit">Valider</button>
+    </form>
+
+    <div id="result"></div>
+</body>
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>
