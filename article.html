@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form class="form-group">
+    <form id="submit" class="form-group">
         <label for="produit"> Nom du produit :</label>
         <input class="form-control" type="text" name="produit" id="produit">
         <label for="prixHT"> Prix Hors taxe :</label>
@@ -18,13 +18,13 @@
         <input class="form-control" type="text" name="TVA" id="TVA">
         <label for="nbArticle">Nombre Article :</label>
         <input class="form-control" type="number" name="nbArticle" id="nbArticle">
-        <button class="btn btn-primary" id="submit">Valider</button>
+        <button class="btn btn-primary">Valider</button>
     </form>
 
     <div id="result"></div>
 </body>
 <script src="vendor/components/jquery/jquery.min.js"></script>
 <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+<script src="article.js"></script>
 
 </html>

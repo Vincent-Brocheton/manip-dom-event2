@@ -1,6 +1,6 @@
 let submit = document.getElementById("submit");
 
-submit.addEventListener("click", (e) => {
+submit.addEventListener("submit", (e) => {
     e.preventDefault();
     let genre = document.getElementById("sexe").value.toUpperCase();
     let age = Number(document.getElementById("age").value);
