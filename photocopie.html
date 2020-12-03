@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Photocopie</title>
+</head>
+
+<body>
+    <div class="centre">
+        <table class="table table-striped col-5">
+            <thead>
+                <tr>
+                    <th>Nombre photocopie</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1-10</td>
+                    <td>10cts/photocopie</td>
+                </tr>
+                <tr>
+                    <td>11-30</td>
+                    <td>10cts*10 + 9cts/photocopie</td>
+                </tr>
+                <tr>
+                    <td>30+</td>
+                    <td>10cts*10 + 9cts*20 + 8cts/photocopie</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="centre">
+        <form class="form-group col-5" id="form">
+            <label for="photocopie">Nombre de photocopie :</label>
+            <input class="form-control" type="number" name="photocopie" id="photocopie">
+            <div class="fin">
+                <button class="btn btn-primary mt-3">Valider</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="result"></div>
+</body>
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="photocopie.js"></script>
+
+</html>
